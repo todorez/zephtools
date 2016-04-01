@@ -80,7 +80,7 @@ IF "%GDBSERVER%"=="1" (
 goto EOF
 
 :USAGE
-echo zflash -b board [-r] image_name
+echo zephflash -b board [-r] image_name
 echo.
 echo -b is a board.  arduino_101 is supported.
 echo -c flash to ARC core
@@ -90,4 +90,3 @@ echo.
 goto EOF
 
 :EOF
-
